@@ -1,13 +1,12 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"loan-management-service.com/lms/config"
+	"loan-management-service.com/lms/server"
+)
 
 func main() {
-	r := gin.Default()
-	r.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "Hello Golang world 🚀",
-		})
-	})
-	r.Run()
+	config.Init()
+	server.Init()
+	server.Start()
 }
