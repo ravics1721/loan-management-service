@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/gin-gonic/gin"
-	"loan-management-service.com/lms/config"
-	"loan-management-service.com/lms/routes"
+	"github.com/ravics1721/loan-management-service/config"
+	"github.com/ravics1721/loan-management-service/routes"
 )
 
 var (

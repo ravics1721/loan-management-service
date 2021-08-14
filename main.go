@@ -1,8 +1,8 @@
 package main
 
 import (
-	"loan-management-service.com/lms/config"
-	"loan-management-service.com/lms/server"
+	"github.com/ravics1721/loan-management-service/config"
+	"github.com/ravics1721/loan-management-service/server"
 )
 
 func main() {

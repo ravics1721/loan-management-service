@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"loan-management-service.com/lms/controllers"
+	"github.com/ravics1721/loan-management-service/controllers"
 )
 
 func Router(ginMode string) *gin.Engine {

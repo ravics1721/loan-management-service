@@ -1,4 +1,4 @@
-module loan-management-service.com/lms
+module github.com/ravics1721/loan-management-service
 
 go 1.16
 

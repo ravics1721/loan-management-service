@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"loan-management-service.com/lms/models"
+	"github.com/ravics1721/loan-management-service/models"
 )
 
 type Response struct {

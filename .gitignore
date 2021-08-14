@@ -1,1 +1,7 @@
 .env
+.pem
+auth-key.pem
+.exe
+loan-management-service.exe
+main.exe
+*.exe
